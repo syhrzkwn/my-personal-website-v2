@@ -315,7 +315,6 @@ img {
   justify-content: center;
   align-items: center;
   background-color: var(--body-color);
-  z-index: 100;
 }
 
 .all-content {

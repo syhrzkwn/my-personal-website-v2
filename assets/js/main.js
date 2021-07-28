@@ -1,6 +1,7 @@
 /*==================== PRELOADER ====================*/
 $(window).on("load", function () {
   $(".loader-wrapper").fadeOut("slow");
+  $(".all-content").fadeIn("slow");
 });
 
 /*==================== HOME IMAGE ANIMATION ====================*/

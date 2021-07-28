@@ -318,6 +318,10 @@ img {
   z-index: 100;
 }
 
+.all-content {
+  display: none;
+}
+
 .loader__container {
   position: absolute;
 }

@@ -367,10 +367,6 @@ img {
   border-radius: 50%;
 }
 
-.home__img-img2 {
-  width: 100%;
-}
-
 .home__data {
   grid-column: 1/3;
 }

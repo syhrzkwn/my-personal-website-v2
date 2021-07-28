@@ -314,7 +314,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #fff;
+  background-color: var(--body-color);
   z-index: 100;
 }
 

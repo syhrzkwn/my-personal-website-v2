@@ -111,22 +111,6 @@ let swiper = new Swiper(".portfolio__container", {
   },
 });
 
-/*==================== GET GEOLOCATION ====================*/
-navigator.geolocation.getCurrentPosition(
-  res => {
-    //success
-    const latitude = res.coords.latitude;
-    const longitude = res.coords.longitude;
-    document.getElementById("geolocation").innerHTML = "<i class='uil uil-map-marker home__social-icon'></i> " + latitude + ", " + longitude;
-  },
-  error => {
-    //error
-    const code = error.code;
-    const message = error.message;
-    document.getElementById("geolocation").innerHTML = code + ", " + message;
-  },
-);
-
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 const sections = document.querySelectorAll('section[id]')
 

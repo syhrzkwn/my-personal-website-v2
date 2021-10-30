@@ -738,6 +738,11 @@ img {
   outline: none;
 }
 
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+
 /*==================== PROJECT IN MIND ====================*/
 .project {
   text-align: center;
